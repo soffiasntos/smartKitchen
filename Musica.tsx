@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const alturaStatusBar = StatusBar.currentHeight;
-const KEY_GEMINI = 'AIzaSyDyGuqTR-fJ6PRNN7LOD5FsrtHql-Q-cgg'; // Substitua pela sua chave de API
+const KEY_GEMINI = 'sua_chave_de_api'; // Substitua pela sua chave de API
 
 const genAI = new GoogleGenerativeAI(KEY_GEMINI);
 
